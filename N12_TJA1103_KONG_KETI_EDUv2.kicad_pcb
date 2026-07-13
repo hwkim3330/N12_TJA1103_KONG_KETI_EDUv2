@@ -16505,13 +16505,13 @@
 		)
 	)
 	(gr_text "KETI"
-		(at 24 7 0)
+		(at 28.0 17.55 0)
 		(layer "F.SilkS")
 		(uuid "66d6aa3c-0348-4dda-a128-6f164ef91789")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 0.85 0.85)
+				(thickness 0.13)
 			)
 		)
 	)
