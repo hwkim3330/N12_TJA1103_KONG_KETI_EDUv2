@@ -1,0 +1,311 @@
+(footprint "SW_TACT_2X4MM_YOON"
+		(layer "F.Cu")
+		(uuid "51431e45-b291-48ed-9056-918bbda3b02f")
+		(at 1.51 18 90)
+		(descr "http://industrial.panasonic.com/cdbs/www-data/pdf/ATV0000/ATV0000CE5.pdf")
+		(tags "SMD SMT SPST EVQPUL EVQPUC")
+		(property "Reference" "SW1"
+			(at 0.05 2.38 90)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "b0c60343-e36f-4b17-9293-0847adc87743")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.12)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 0 3.5 -90)
+			(layer "F.Fab")
+			(uuid "b7bb3f93-f4c8-4ccb-8f0d-c13d46a1d9bf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "YK_Footprint_LIB:SW_TACT_2X4MM_YOON"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7b6ea48c-8135-463a-866f-7149656dffcb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f1f1b44f-5acd-4e9e-b71b-706d4dcd30cc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6ceb168c-a18a-410b-abb9-2cd8988a8425")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(path "/82740cec-a2e4-4f2d-8af2-60760efa0fb1")
+		(sheetname "Root")
+		(sheetfile "N12_TJA1103_KONG_KETI_EDUv2.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start 1.5 -1.2)
+			(end -1.4625 -1.2)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "810a0191-adeb-46e7-b11f-2de316bd02b2")
+		)
+		(fp_line
+			(start 0.53125 -1)
+			(end -0.53125 -1)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "f82a8c7f-a1b1-47d2-b7ba-81877169b6cc")
+		)
+		(fp_line
+			(start -2.4 1.7)
+			(end -2.4 0.325)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "d96e6197-0ab8-409b-a87c-21f9fd6d96ac")
+		)
+		(fp_line
+			(start 2.4 1.8)
+			(end 2.4 0.325)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "6f0735ab-66c5-49b1-b864-02d8d37d0af7")
+		)
+		(fp_line
+			(start 1 1.85)
+			(end -1 1.85)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "ee24495c-6e1d-4037-8501-c86dd1618f91")
+		)
+		(fp_line
+			(start 3.9 -3.25)
+			(end -3.9 -3.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "142de470-de42-4fdf-b7ec-60e23da0fe53")
+		)
+		(fp_line
+			(start 3.9 2.25)
+			(end 3.9 -3.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "3df6742b-54b5-4d4c-ac18-c325324ad762")
+		)
+		(fp_line
+			(start 3.9 2.25)
+			(end -3.9 2.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "081f10d9-f235-4d1e-a2b3-e7175ab602a8")
+		)
+		(fp_line
+			(start -3.9 2.25)
+			(end -3.9 -3.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "99533c8e-5a7c-4263-8a9e-cd6b89f99a52")
+		)
+		(fp_line
+			(start 1.4 -1.6)
+			(end -1.2 -1.6)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "83283ad1-8aca-42c1-8423-f04bdc6dc427")
+		)
+		(fp_line
+			(start 1.4 -1.6)
+			(end 1.4 -1.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "73b948db-90c7-4c28-b6e5-ed60e8347570")
+		)
+		(fp_line
+			(start -1.2 -1.6)
+			(end -1.2 -1.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "42377f0f-d559-47a5-a182-cb1b94527130")
+		)
+		(fp_line
+			(start 2.35 -1.2)
+			(end -2.35 -1.2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "c2847b79-9d11-43b7-ad6c-7b868d3a22bf")
+		)
+		(fp_line
+			(start 2.35 1.75)
+			(end 2.35 -1.2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "4b7f9405-7fdf-44ba-b468-a378a8cc2d28")
+		)
+		(fp_line
+			(start 2.35 1.75)
+			(end -2.35 1.75)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "08e2b3e0-d6f3-4ca1-9053-b199ce92f82e")
+		)
+		(fp_line
+			(start -2.35 1.75)
+			(end -2.35 -1.2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "adde92b4-5758-4ae2-956d-95383aeaaeaa")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 -90)
+			(layer "F.Fab")
+			(uuid "0f6a2b35-9d93-4693-9196-004faa68285f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at -1.7 1.5 270)
+			(size 1.2 1.2)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 13 "/WAKEBTN")
+			(pintype "passive")
+			(uuid "e4773ffa-b8f7-4f3b-ac4b-0263d3b27d74")
+		)
+		(pad "2" smd rect
+			(at 1.7 1.5 270)
+			(size 1.2 1.2)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 3 "VDD3V3cont")
+			(pintype "passive")
+			(uuid "bca5ef61-80fe-449c-a932-23d12b237f96")
+		)
+		(pad "3" smd rect
+			(at -2.3 -0.45 270)
+			(size 1.5 1.5)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 5 "GND")
+			(pintype "passive")
+			(uuid "9786dfc3-53a6-42f7-a38b-8d5689602988")
+		)
+		(pad "4" smd rect
+			(at 2.3 -0.45 270)
+			(size 1.5 1.5)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 5 "GND")
+			(pintype "passive")
+			(uuid "f81e969c-57d6-406f-a588-1d63cee7e8a3")
+		)
+		(pad "5" thru_hole circle
+			(at -0.85 0 270)
+			(size 0.7 0.7)
+			(drill 0.5)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 29 "unconnected-(SW1-Pad5)")
+			(pintype "no_connect")
+			(solder_mask_margin 0.1)
+			(solder_paste_margin 0.1)
+			(clearance 0.1)
+			(uuid "d4dd8965-1955-4297-b0a3-52c5b1304dbc")
+		)
+		(pad "6" thru_hole circle
+			(at 0.85 0 270)
+			(size 0.7 0.7)
+			(drill 0.5)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 28 "unconnected-(SW1-Pad6)")
+			(pintype "no_connect")
+			(solder_mask_margin 0.1)
+			(solder_paste_margin 0.1)
+			(clearance 0.1)
+			(uuid "42607d93-81aa-4cd6-a60b-c2005891f2f3")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/YK3D/SW_TACT_2X4_1TS003B.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
+	)

@@ -1,0 +1,290 @@
+(footprint "ACT45L_1"
+		(layer "F.Cu")
+		(uuid "dbc8a7b1-ead5-4f81-b7e8-1648c6f10a69")
+		(at 17.77 31.81 90)
+		(descr "ACT45L_1")
+		(tags "Filter")
+		(property "Reference" "FL1"
+			(at 0.36279 0.39843 90)
+			(layer "F.SilkS")
+			(uuid "296f5290-5a17-4bd3-a59c-d02067fcfa3f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Value" "ACT45L-201-2P-TL000"
+			(at 0.36279 0.39843 90)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "077f37b4-d6b9-4b2e-b726-71b7baad13a1")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Footprint" "ACT45L_1"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7f4495b2-b38d-441f-9b7b-bb2718d368db")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/emc/emc/cmf_cmc/datasheets/cmf_automotive_signal_act45l_en.pdf"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a531a347-b43d-4a4f-b6b3-fab19aa1aba0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Common mode choke SMD 200uH 100mA 50V TDK ACT Series Shielded SMD Common Mode Line Filter 200 uH -30 %, 50 % 100mA Idc"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b92a5b1b-aa16-4dde-979e-cc74c84568f8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bdc47f9d-07ab-492d-b98c-cc038dc09a68")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "TDK"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eccbfff4-de18-4c51-88ca-5f6f42229670")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ACT45L-201-2P-TL000"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d8b0ee14-39bf-4e87-a662-1504d5a18498")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part Number" "810-ACT45L2012PTL000"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9d2f7e76-f3a2-4597-bbfa-cf8719459282")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TDK/ACT45L-201-2P-TL000?qs=YdQ7Kj7W0byJRYQTZmlopQ%3D%3D"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d2de8b9e-f057-4246-8f21-fa04b4e63293")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Part Number" "ACT45L-201-2P-TL000"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2c836016-da40-4b1e-a0b6-0dcf96a2af6c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/act45l-201-2p-tl000/tdk?region=nac"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e4446df6-493b-40df-b21c-18640c5a4210")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/5fa9d7b1-1d56-4c8e-b64e-a5d453d57b43")
+		(sheetname "Root")
+		(sheetfile "N12_TJA1103_KONG_KETI_EDUv2.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -2.25 -1.6)
+			(end 2.25 -1.6)
+			(stroke
+				(width 0.254)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "7a586be5-1334-41de-ad29-1bf1b290815b")
+		)
+		(fp_line
+			(start -2.25 1.6)
+			(end 2.25 1.6)
+			(stroke
+				(width 0.254)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "f712ccf0-661f-4602-a09d-4c4b7a120228")
+		)
+		(fp_circle
+			(center -3.06767 -1.137)
+			(end -3.06767 -1.092)
+			(stroke
+				(width 0.254)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.SilkS")
+			(uuid "1a0d546e-0265-4529-a019-2b985472b592")
+		)
+		(fp_line
+			(start 2.25 -1.6)
+			(end 2.25 1.6)
+			(stroke
+				(width 0.254)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "af5697e5-ce66-46c3-bb0b-dbd54ced105c")
+		)
+		(fp_line
+			(start -2.25 -1.6)
+			(end 2.25 -1.6)
+			(stroke
+				(width 0.254)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "d3062f60-7340-4dfb-ab86-b66a5e3e78bc")
+		)
+		(fp_line
+			(start 2.25 1.6)
+			(end -2.25 1.6)
+			(stroke
+				(width 0.254)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "0fa04b2e-95cc-4485-a43f-970a560b59c1")
+		)
+		(fp_line
+			(start -2.25 1.6)
+			(end -2.25 -1.6)
+			(stroke
+				(width 0.254)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "bf58afd7-d24b-42df-9482-127550f93a1a")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0.36279 0.39843 90)
+			(layer "F.Fab")
+			(uuid "33942909-e424-427e-b3c9-2b67104e132c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at -2.35 0.7 180)
+			(size 0.7 0.8)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 41 "Net-(C3-Pad2)")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "835b8f25-3626-48a9-adf9-debea37e502b")
+		)
+		(pad "2" smd rect
+			(at -2.35 -0.7 180)
+			(size 0.7 0.8)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 1 "Net-(C2-Pad2)")
+			(pinfunction "2")
+			(pintype "passive")
+			(uuid "74cf0a62-d4e4-4a08-b05c-0e707ff548a4")
+		)
+		(pad "3" smd rect
+			(at 2.35 0.7 180)
+			(size 0.7 0.8)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 16 "/TRD-")
+			(pinfunction "3")
+			(pintype "passive")
+			(uuid "090ab255-14ee-40b9-a789-944e81d8d58b")
+		)
+		(pad "4" smd rect
+			(at 2.35 -0.7 180)
+			(size 0.7 0.8)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 17 "/TRD+")
+			(pinfunction "4")
+			(pintype "passive")
+			(uuid "d1ebc5fb-ca85-47a9-8f34-0a657eba20ed")
+		)
+		(model "ACT45L-201-2P-TL000.stp"
+			(offset
+				(xyz 0.2 -4.499999932 1.899999948)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 90 0 0)
+			)
+		)
+	)
