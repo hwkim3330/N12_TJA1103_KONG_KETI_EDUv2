@@ -9819,7 +9819,7 @@
 		)
 		(uuid "4542a660-550f-4898-9d13-ce1ff143bf7a")
 	)
-	(label "DN-"
+	(label "DP+"
 		(at 148.59 86.36 0)
 		(fields_autoplaced yes)
 		(effects
@@ -9885,7 +9885,7 @@
 		)
 		(uuid "5d186633-8bdd-4486-b478-29fe874ef467")
 	)
-	(label "DP+"
+	(label "DN-"
 		(at 148.59 83.82 0)
 		(fields_autoplaced yes)
 		(effects
