@@ -6681,7 +6681,7 @@
 			(uuid "2b3e49c8-e243-4461-9526-a7980c7c0156")
 		)
 		(embedded_fonts no)
-		(model "C:/KiCad/ext3d/5680F5_5_LED_DUAL_STACK.stp"
+		(model "${KIPRJMOD}/lib/3d/5680F5_5/5680F5_5.stp"
 			(offset
 				(xyz 0 -4.5 4.5)
 			)
@@ -9257,7 +9257,7 @@
 			(uuid "067597d2-521f-4732-90e4-5b2bf72f6fe7")
 		)
 		(embedded_fonts no)
-		(model "DS03-254-02BE.stp"
+		(model "${KIPRJMOD}/lib/3d/DS03-254-02BE/DS03-254-02BE.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -9268,7 +9268,7 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "C:/KiCad/extLib/LIB_DS03-254-02BE/DS03-254-02BE/3D/DS03-254-02BE.stp"
+		(model "${KIPRJMOD}/lib/3d/DS03-254-02BE/DS03-254-02BE.stp"
 			(offset
 				(xyz -2 -0.7 0)
 			)
@@ -9777,7 +9777,7 @@
 			(uuid "d1ebc5fb-ca85-47a9-8f34-0a657eba20ed")
 		)
 		(embedded_fonts no)
-		(model "ACT45L-201-2P-TL000.stp"
+		(model "${KIPRJMOD}/lib/3d/ACT45L-201-2P-TL000/ACT45L-201-2P-TL000.stp"
 			(offset
 				(xyz 0.2 -4.499999932 1.899999948)
 			)
@@ -10858,7 +10858,7 @@
 			(uuid "1afb190c-c473-47cf-a13b-fc328be0876c")
 		)
 		(embedded_fonts no)
-		(model "C:/KiCad/ext3d/5680F5_5_LED_DUAL_STACK.stp"
+		(model "${KIPRJMOD}/lib/3d/5680F5_5/5680F5_5.stp"
 			(offset
 				(xyz 0 -4.5 4.5)
 			)
@@ -16502,6 +16502,17 @@
 				(thickness 0.14)
 			)
 			(justify left bottom)
+		)
+	)
+	(gr_text "KETI"
+		(at 24 7 0)
+		(layer "F.SilkS")
+		(uuid "66d6aa3c-0348-4dda-a128-6f164ef91789")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
 		)
 	)
 	(gr_text "KONG"
