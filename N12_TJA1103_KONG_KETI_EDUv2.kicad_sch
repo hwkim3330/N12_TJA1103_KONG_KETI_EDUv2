@@ -3548,7 +3548,7 @@
 				(pin passive line
 					(at 0 0 0)
 					(length 5.08)
-					(name "DN-"
+					(name "DP+"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3566,7 +3566,7 @@
 				(pin passive line
 					(at 0 -2.54 0)
 					(length 5.08)
-					(name "DP+"
+					(name "DN-"
 						(effects
 							(font
 								(size 1.27 1.27)
