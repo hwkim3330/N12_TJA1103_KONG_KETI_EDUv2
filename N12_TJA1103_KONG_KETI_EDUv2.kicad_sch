@@ -3713,7 +3713,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "ACT45L_1"
+			(property "Footprint" "YK_Footprint_LIB:ACT45L_1"
 				(at 16.51 -94.92 0)
 				(effects
 					(font
@@ -4909,7 +4909,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "E6S20A40MT5Z"
+			(property "Footprint" "YK_Footprint_LIB:E6S20A40MT5Z"
 				(at 16.51 -94.92 0)
 				(effects
 					(font
@@ -5419,7 +5419,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "QFN50P600X600X100-37N-D"
+			(property "Footprint" "YK_Footprint_LIB:QFN50P600X600X100-37N-D"
 				(at 44.45 -87.3 0)
 				(effects
 					(font
@@ -11736,7 +11736,7 @@
 				)
 			)
 		)
-		(property "Footprint" "E6S20A:E6S20A40MT5Z"
+		(property "Footprint" "YK_Footprint_LIB:E6S20A40MT5Z"
 			(at 154.94 191.44 0)
 			(effects
 				(font
@@ -13888,7 +13888,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ACT45L_1"
+		(property "Footprint" "YK_Footprint_LIB:ACT45L_1"
 			(at 158.75 116.51 0)
 			(effects
 				(font
@@ -18101,7 +18101,7 @@
 				)
 			)
 		)
-		(property "Footprint" "QFN50P600X600X100-37N-D"
+		(property "Footprint" "YK_Footprint_LIB:QFN50P600X600X100-37N-D"
 			(at 96.52 136.83 0)
 			(effects
 				(font
