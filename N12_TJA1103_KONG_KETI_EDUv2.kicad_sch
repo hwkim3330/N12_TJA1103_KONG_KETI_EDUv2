@@ -11736,7 +11736,7 @@
 				)
 			)
 		)
-		(property "Footprint" "YK_Footprint_LIB:E6S20A40MT5Z"
+		(property "Footprint" "E6S20A:E6S20A40MT5Z"
 			(at 154.94 191.44 0)
 			(effects
 				(font

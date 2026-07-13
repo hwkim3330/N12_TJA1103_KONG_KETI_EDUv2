@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "E6S20A")(type "KiCad")(uri "/Users/parksik/Downloads/N12_TJA1103_KONG_KETI_EDUv2/lib/E6S20A-40MT5-Z.pretty")(options "")(descr "Samacsys E6S20A-40MT5-Z"))
+)
