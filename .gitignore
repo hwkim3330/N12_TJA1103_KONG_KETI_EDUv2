@@ -1,0 +1,8 @@
+.DS_Store
+*.kicad_prl
+*.lck
+*.kicad_pro.lck
+fp-info-cache
+*_drc_violations.json
+*_backups/
+*-backups/
