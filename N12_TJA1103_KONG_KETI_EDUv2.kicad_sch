@@ -21051,6 +21051,38 @@
 			)
 		)
 	)
+	(wire
+		(pts
+			(xy 29.21 92.71) (xy 34.29 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2520d22c-4564-48b0-9f4a-ff8e7b11be2d")
+	)
+	(junction
+		(at 34.29 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a2fb8f63-f1ca-459e-8e57-cb4b91bade7a")
+	)
+	(wire
+		(pts
+			(xy 72.39 102.87) (xy 80.01 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "256ca89c-ed17-4f44-a7c1-31b7d87babc5")
+	)
+	(junction
+		(at 72.39 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0119c572-7859-4281-a25e-832ce647c264")
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
