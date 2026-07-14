@@ -13,13 +13,13 @@ panel.GetDesignSettings().m_SilkClearance = IU(0.15)
 panel.GetAllNetClasses()["Default"].SetClearance(IU(0.15))
 
 sources = [
-    # Use the validated six-key board, not the legacy three-key reference.
-    # Rotate the 69.85 x 57.15 mm GigaPad so it becomes 57.15 x 69.85 mm;
-    # this leaves a clean 33 mm column for the 33 x 57.04 mm KETI board.
-    ("/tmp/panel-giga.kicad_pcb", 5, 5, 90, ""),
-    ("/tmp/panel-keti.kicad_pcb", 65.5, 5, 0, ""),
-    ("/tmp/panel-dongle-a.kicad_pcb", 5, 75.5, 0, ""),
-    ("/tmp/panel-dongle-b.kicad_pcb", 48, 75.5, 0, ""),
+    # Final assembly uses the 3-key ESP32 carrier with the controller socket
+    # on the same PCB.  This avoids the external interposer and keeps the
+    # switches clear of the module footprint.
+    ("GigaPad3_ESP32_Onboard.kicad_pcb", 5, 5, 0, ""),
+    ("N12_TJA1103_KONG_KETI_EDUv2.kicad_pcb", 65.5, 5, 0, ""),
+    ("MATEnet_2Wire_Dongle_A.kicad_pcb", 5, 75.5, 0, ""),
+    ("MATEnet_2Wire_Dongle_B.kicad_pcb", 48, 75.5, 0, ""),
 ]
 
 def net_map(src, prefix):
@@ -81,7 +81,10 @@ def copy_source(rel, tx, ty, rotation, prefix):
             for source_pad, copied_pad in zip(original_pads, copied.Pads()):
                 copied_pad.SetNetCode(mapping.get(source_pad.GetNetCode(), 0))
         elif hasattr(copied, "SetNetCode"):
-            copied.SetNetCode(mapping.get(original_net, 0))
+            try:
+                copied.SetNetCode(mapping.get(original_net, 0))
+            except (RuntimeError, SystemError):
+                pass
 
 for source in sources:
     copy_source(*source)
@@ -108,18 +111,17 @@ def silk_text(value, x, y, size=1.0, rotation=0):
 
 # Assembly-zone separators and readable identifiers. These are silkscreen
 # guides only; the single 100 x 100 mm Edge.Cuts outline remains unchanged.
-silk_rect(4.5, 4.5, 62.5, 75.2)
+silk_rect(4.5, 4.5, 64.5, 75.2)
 silk_rect(65.0, 4.5, 99.0, 62.5)
 silk_rect(4.5, 75.0, 44.5, 99.5)
 silk_rect(47.5, 75.0, 87.5, 99.5)
-silk_text("GIGAPAD 6KEY / USB + BLE", 33.0, 73.6, 0.82)
 silk_text("KETI / TJA1103 / 100BASE-T1", 82.0, 63.6, 0.72)
 silk_text("A", 6.5, 76.4, 0.8)
 silk_text("B", 49.5, 76.4, 0.8)
 
 panel.SetTitleBlock(pcbnew.TITLE_BLOCK())
 panel.GetTitleBlock().SetTitle("100x100 Mixed KETI + GigaPad + MATEnet Panel")
-panel.GetTitleBlock().SetComment(1, "4-up panel: KETI Ethernet, GigaPad keypad, 2 passive 2-wire dongles")
+panel.GetTitleBlock().SetComment(1, "4-up panel: KETI Ethernet, onboard ESP32 GigaPad, 2 passive 2-wire dongles")
 for start, end in [((0, 0), (100, 0)), ((100, 0), (100, 100)),
                    ((100, 100), (0, 100)), ((0, 100), (0, 0))]:
     outline = pcbnew.PCB_SHAPE(panel, pcbnew.SHAPE_T_SEGMENT)
