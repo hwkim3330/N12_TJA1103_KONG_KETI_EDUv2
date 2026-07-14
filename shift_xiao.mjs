@@ -1,0 +1,20 @@
+import fs from 'node:fs';
+
+const [input, output, dxText = '5'] = process.argv.slice(2);
+const dx = Number(dxText);
+let text = fs.readFileSync(input, 'utf8');
+const marker = '(property "Reference" "U1"';
+const start = text.indexOf(marker);
+if (start < 0) throw new Error('U1 reference not found');
+const fpStart = text.lastIndexOf('(footprint ', start);
+const fpEnd = text.indexOf('\n\t)', start);
+if (fpStart < 0 || fpEnd < 0) throw new Error('U1 footprint bounds not found');
+const block = text.slice(fpStart, fpEnd);
+const match = block.match(/\(at\s+(-?[0-9.]+)\s+(-?[0-9.]+)([^)]*)\)/);
+if (!match) throw new Error('U1 position not found');
+const x = Number(match[1]) + dx;
+const replacement = `(at ${x.toFixed(4)} ${match[2]}${match[3]})`;
+const updated = block.slice(0, match.index) + replacement + block.slice(match.index + match[0].length);
+text = text.slice(0, fpStart) + updated + text.slice(fpEnd);
+fs.writeFileSync(output, text);
+console.log(`shifted U1 by ${dx} mm: ${match[1]} -> ${x.toFixed(4)}`);

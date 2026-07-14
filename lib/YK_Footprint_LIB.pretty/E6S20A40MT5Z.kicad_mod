@@ -1,0 +1,395 @@
+(footprint "E6S20A40MT5Z"
+		(layer "F.Cu")
+		(uuid "904fc861-765e-4aac-b69e-621c341b0038")
+		(at 15 47.43 90)
+		(descr "E6S20A-40MT5-Z")
+		(tags "Connector")
+		(property "Reference" "J4"
+			(at 1.99 7.81 0)
+			(layer "F.SilkS")
+			(uuid "1310c85d-8f4d-46e0-8614-9ad665a5f61e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Value" "E6S20A-40MT5-Z"
+			(at -3.92 1 270)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "4aa21f66-0e5b-448a-a719-076dc0fda095")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Footprint" "YK_Footprint_LIB:E6S20A40MT5Z"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "41886312-ea34-46a9-adc4-c45c2aa1ad56")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://products.rosenberger.com/_ocassets/db/E6S20A-40MT5-Y.pdf"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eaa46897-d789-423c-9fce-6b3df31f00c3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "RF Adapters - In Series"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4cc15be9-a32b-405f-a1c4-cba95e08fe3b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "13.8"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "747f420a-2fb1-4eb7-9333-0039ce4d009f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Rosenberger"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2022eaad-d84a-4e09-9e9f-0833e4dbe210")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "E6S20A-40MT5-Z"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b5095695-c529-4980-a7fb-fc774e9c019c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part Number" "476-E6S20A-40MT5-Z"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "118296c5-64e7-4aa5-9b81-fa291ce1ed63")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Rosenberger/E6S20A-40MT5-Z?qs=amGC7iS6iy%2FMCPIRoHcsmg%3D%3D"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f76a520f-8842-4b7f-9730-006a4cdca9bf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c7b6622b-7e17-4850-b58d-5c354bdb4166")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4a5d5159-54ff-4aac-8fb9-c78ef6a9b9ea")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/1bdd2011-ea86-4064-bf2c-be43b8099c18")
+		(sheetname "Root")
+		(sheetfile "N12_TJA1103_KONG_KETI_EDUv2.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start 7.03 -4.5)
+			(end 7.03 6.5)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "6066f5dd-bda3-49bd-9210-2998124e95b0")
+		)
+		(fp_line
+			(start -14.87 -4.5)
+			(end 7.03 -4.5)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "c8df6be5-c5bd-426e-b9f0-aa2c0b6ed472")
+		)
+		(fp_line
+			(start 7.03 6.5)
+			(end -14.87 6.5)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "c2607aba-2ead-4afc-b412-f242e5f6a94c")
+		)
+		(fp_line
+			(start -14.87 6.5)
+			(end -14.87 -4.5)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "e8e75b32-a936-471f-9edc-a899de655ad1")
+		)
+		(fp_line
+			(start 8.03 -5.5)
+			(end 8.03 7.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "7798c7ad-adad-43f8-9034-99ae4428399c")
+		)
+		(fp_line
+			(start -15.87 -5.5)
+			(end 8.03 -5.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "002d3e10-14d4-4e71-9d05-6bf134a82b2a")
+		)
+		(fp_line
+			(start 8.03 7.5)
+			(end -15.87 7.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "8a2456c9-b247-40c6-a14b-1582ee4588ef")
+		)
+		(fp_line
+			(start -15.87 7.5)
+			(end -15.87 -5.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "cd5e88e9-bcb1-4027-8171-743e5ef03be0")
+		)
+		(fp_line
+			(start 7.03 -4.5)
+			(end 7.03 6.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "112e8805-c895-48ce-9224-c8e0b2d17d83")
+		)
+		(fp_line
+			(start -14.87 -4.5)
+			(end 7.03 -4.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "b9c2147d-c065-4f20-9bd8-c0add8518d23")
+		)
+		(fp_line
+			(start 7.03 6.5)
+			(end -14.87 6.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "f31f23b5-9e35-43c4-9e1b-fb45f8d491f7")
+		)
+		(fp_line
+			(start -14.87 6.5)
+			(end -14.87 -4.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "50b366f1-b59d-4a47-8aa5-bb0211dcea59")
+		)
+		(fp_text user "P"
+			(at 0.79 -0.55 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "014f178b-1441-4e8e-8088-6bb3703af463")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+				(justify left bottom)
+			)
+		)
+		(fp_text user "N"
+			(at 0.93 1.35 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "ac36989e-1e9b-4e0b-b8a8-391decc65a93")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+				(justify left bottom)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at -3.92 1 270)
+			(layer "F.Fab")
+			(uuid "9eba3138-1ffd-44a6-9642-0069fc4bbc3d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(pad "1" thru_hole rect
+			(at 0 0 90)
+			(size 1.1 1.1)
+			(drill 0.6)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 30 "/DP+")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "208dc5b5-813d-496c-a6b6-35d7761d18ba")
+		)
+		(pad "2" thru_hole circle
+			(at 0 2 90)
+			(size 1.1 1.1)
+			(drill 0.6)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 31 "/DN-")
+			(pinfunction "2")
+			(pintype "passive")
+			(uuid "0c812643-5ce5-4c63-8b8f-8ce8be5c680b")
+		)
+		(pad "3" thru_hole circle
+			(at -1.87 -2.5 90)
+			(size 2.46 2.46)
+			(drill 1.64)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 4 "Earth")
+			(pinfunction "3")
+			(pintype "passive")
+			(uuid "eccaeb96-f113-4729-858a-5d60cb21838e")
+		)
+		(pad "4" thru_hole circle
+			(at -1.87 4.5 90)
+			(size 2.46 2.46)
+			(drill 1.64)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 4 "Earth")
+			(pinfunction "4")
+			(pintype "passive")
+			(uuid "111c900b-764c-4944-bdb9-97e4c64cc581")
+		)
+		(pad "5" thru_hole circle
+			(at 5.63 4.5 90)
+			(size 2.46 2.46)
+			(drill 1.64)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 4 "Earth")
+			(pinfunction "5")
+			(pintype "passive")
+			(uuid "9dde479b-9e1b-4a4d-be33-0964f27cc147")
+		)
+		(pad "6" thru_hole circle
+			(at 5.63 -2.5 90)
+			(size 2.46 2.46)
+			(drill 1.64)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 4 "Earth")
+			(pinfunction "6")
+			(pintype "passive")
+			(uuid "76b5a27e-90e2-4d5f-9347-cfac4c6eca93")
+		)
+		(model "C:/KiCad/ext3d/E6S20A-40MT5-Z.stp"
+			(offset
+				(xyz 65.5 35.5 10.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
+	)

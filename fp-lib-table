@@ -1,0 +1,7 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "E6S20A")(type "KiCad")(uri "${KIPRJMOD}/lib/E6S20A-40MT5-Z.pretty")(options "")(descr "Samacsys E6S20A-40MT5-Z"))
+  (lib (name "YK_Footprint_LIB")(type "KiCad")(uri "${KIPRJMOD}/lib/YK_Footprint_LIB.pretty")(options "")(descr "Recovered embedded footprints from assignment"))
+  (lib (name "SamacSys_9-2304372-9")(type "KiCad")(uri "${KIPRJMOD}/lib/SamacSys_9-2304372-9.pretty")(options "")(descr "Downloaded SamacSys KiCad footprint for TE 9-2304372-9"))
+  (lib (name "TE_MATEnet")(type "KiCad")(uri "${KIPRJMOD}/lib/footprints/TE_MATEnet.pretty")(options "")(descr "TE Connectivity MATEnet connector footprint"))
+)

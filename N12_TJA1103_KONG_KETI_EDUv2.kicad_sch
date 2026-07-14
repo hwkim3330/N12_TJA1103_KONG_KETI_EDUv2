@@ -3548,7 +3548,7 @@
 				(pin passive line
 					(at 0 0 0)
 					(length 5.08)
-					(name "DN-"
+					(name "DP+"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3566,7 +3566,7 @@
 				(pin passive line
 					(at 0 -2.54 0)
 					(length 5.08)
-					(name "DP+"
+					(name "DN-"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3713,7 +3713,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "ACT45L_1"
+			(property "Footprint" "YK_Footprint_LIB:ACT45L_1"
 				(at 16.51 -94.92 0)
 				(effects
 					(font
@@ -4909,7 +4909,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "E6S20A40MT5Z"
+			(property "Footprint" "YK_Footprint_LIB:E6S20A40MT5Z"
 				(at 16.51 -94.92 0)
 				(effects
 					(font
@@ -5419,7 +5419,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "QFN50P600X600X100-37N-D"
+			(property "Footprint" "YK_Footprint_LIB:QFN50P600X600X100-37N-D"
 				(at 44.45 -87.3 0)
 				(effects
 					(font
@@ -9819,7 +9819,7 @@
 		)
 		(uuid "4542a660-550f-4898-9d13-ce1ff143bf7a")
 	)
-	(label "DN-"
+	(label "DP+"
 		(at 148.59 86.36 0)
 		(fields_autoplaced yes)
 		(effects
@@ -9885,7 +9885,7 @@
 		)
 		(uuid "5d186633-8bdd-4486-b478-29fe874ef467")
 	)
-	(label "DP+"
+	(label "DN-"
 		(at 148.59 83.82 0)
 		(fields_autoplaced yes)
 		(effects
@@ -13888,7 +13888,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ACT45L_1"
+		(property "Footprint" "YK_Footprint_LIB:ACT45L_1"
 			(at 158.75 116.51 0)
 			(effects
 				(font
@@ -18101,7 +18101,7 @@
 				)
 			)
 		)
-		(property "Footprint" "QFN50P600X600X100-37N-D"
+		(property "Footprint" "YK_Footprint_LIB:QFN50P600X600X100-37N-D"
 			(at 96.52 136.83 0)
 			(effects
 				(font
@@ -21051,7 +21051,171 @@
 			)
 		)
 	)
-	(sheet_instances
+	(wire
+		(pts
+			(xy 29.21 92.71) (xy 34.29 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2520d22c-4564-48b0-9f4a-ff8e7b11be2d")
+	)
+	(junction
+		(at 34.29 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a2fb8f63-f1ca-459e-8e57-cb4b91bade7a")
+	)
+	(wire
+		(pts
+			(xy 72.39 102.87) (xy 80.01 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "256ca89c-ed17-4f44-a7c1-31b7d87babc5")
+	)
+	(junction
+		(at 72.39 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0119c572-7859-4281-a25e-832ce647c264")
+	)
+    (symbol (lib_id "power:PWR_FLAG") (at 72.39 118.11 0) (unit 1)
+    (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no)
+    (uuid "6a63a794-c3a0-4896-9cbb-8b4e5d6fe366")
+    (property "Reference" "#FLG08"
+      (at 72.39 120.015 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+    )
+    (property "Value" "PWR_FLAG"
+      (at 72.39 121.92 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+    )
+    (property "Footprint" ""
+      (at 72.39 118.11 0)
+      (hide yes)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+    )
+    (property "Datasheet" ""
+      (at 72.39 118.11 0)
+      (hide yes)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+    )
+    (property "Description" "Special symbol for telling ERC where power comes from"
+      (at 72.39 118.11 0)
+      (hide yes)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+    )
+    (pin "1" (uuid "60e889a1-73ed-44fd-b7b8-f1188f0814df"))
+    (instances
+      (project "N12_TJA1103_KONG_KETI_EDUv2"
+        (path "/f2cee9b5-13fd-48f2-8e8c-2b940fa32210"
+          (reference "#FLG08")
+          (unit 1)
+        )
+      )
+    )
+  )
+    (symbol (lib_id "power:PWR_FLAG") (at 34.29 92.71 0) (unit 1)
+    (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no)
+    (uuid "1ed6d265-bbde-4622-a0f6-f95993c33f4f")
+    (property "Reference" "#FLG07"
+      (at 34.29 94.615 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+    )
+    (property "Value" "PWR_FLAG"
+      (at 34.29 96.52 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+    )
+    (property "Footprint" ""
+      (at 34.29 92.71 0)
+      (hide yes)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+    )
+    (property "Datasheet" ""
+      (at 34.29 92.71 0)
+      (hide yes)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+    )
+    (property "Description" "Special symbol for telling ERC where power comes from"
+      (at 34.29 92.71 0)
+      (hide yes)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+    )
+    (pin "1" (uuid "dc525432-b4a5-4a4d-89cf-aa60d13889a3"))
+    (instances
+      (project "N12_TJA1103_KONG_KETI_EDUv2"
+        (path "/f2cee9b5-13fd-48f2-8e8c-2b940fa32210"
+          (reference "#FLG07")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (sheet_instances
 		(path "/"
 			(page "1")
 		)

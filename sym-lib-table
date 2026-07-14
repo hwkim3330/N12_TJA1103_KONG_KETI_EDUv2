@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "E6S20A")(type "KiCad")(uri "${KIPRJMOD}/lib/E6S20A-40MT5-Z.kicad_sym")(options "")(descr "Samacsys E6S20A-40MT5-Z"))
+  (lib (name "YK_Library")(type "KiCad")(uri "${KIPRJMOD}/lib/YK_Library.kicad_sym")(options "")(descr "Recovered embedded symbols from assignment"))
+  (lib (name "SamacSys_9-2304372-9")(type "KiCad")(uri "${KIPRJMOD}/lib/vendor/9-2304372-9/9-2304372-9.kicad_sym")(options "")(descr "Downloaded SamacSys KiCad symbol for TE 9-2304372-9"))
+)

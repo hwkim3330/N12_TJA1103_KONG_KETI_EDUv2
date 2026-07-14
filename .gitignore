@@ -6,3 +6,4 @@ fp-info-cache
 *_drc_violations.json
 *_backups/
 *-backups/
+.history/
